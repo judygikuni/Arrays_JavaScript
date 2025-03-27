@@ -10,7 +10,7 @@ console.log({arr});
 //Question 2; 
 const myPets = ["cow", "Bird", "Snake", "Dog"];
 const string1 = myPets.join(",");
-console.log({string1})
+console.log({string1});
 
 //Question 3;
 var arr3 = [-5,9,5,3,2,-3,6,8,4,1];
@@ -21,8 +21,8 @@ console.log({sortedarr});
 let arry = ["boy", "man", "girl", "school", "girl", "woman"];
 let arry1 = [...new Set(arry)];
 let arry2 = arry.filter((item,index) => arry.indexOf(item) !== index);
-console.log({arry1})
-console.log({arry2})
+console.log({arry1});
+console.log({arry2});
 
 //Question 5;
 let arr5 = ["the", "way", "x", 4];
